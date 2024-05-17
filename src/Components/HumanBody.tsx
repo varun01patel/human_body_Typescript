@@ -87,6 +87,7 @@ const App: React.FC = () => {
         partsInput={partsInput}
         onClick={handlePartClick}
       />
+      
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
